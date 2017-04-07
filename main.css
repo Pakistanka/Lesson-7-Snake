@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+#snake-field {
+  background-color: black;
+  border: 1px solid green;
+  width: 500px;
+  height: 500px;
+}
+
+table {
+	width: 400px;
+	height: 400px;
+	background: lightgrey;
+	margin-top: 45px;
+	margin-left: 45px;
+}
+
+#snake-start, 
+#snake-renew {
+  width: 100px;
+  padding: 15px;
+  color: white;
+  background: green;
+  text-align: center;
+  cursor: pointer;
+  float: left;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.game-table {
+  border-collapse: collapse;
+}
+
+td.game-table-cell {
+  width: 15px;
+  height: 15px;
+  border: 1px dotted #eee;
+  border-collapse: collapse;
+}
+
+.snake-unit {
+  background: white;
+}
+
+.food-unit {
+  background: red;
+}
+
+.barrier-unit {
+	background: royalblue;
+}
+
+#score {
+	width: 200px;
+	height: 40px;
+	background: black;
+	color: ivory;
+}
+
